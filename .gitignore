@@ -1,0 +1,16 @@
+# Jupyter autosave backups - never commit these
+.ipynb_checkpoints/
+
+# CatBoost training output, regenerated on every run
+catboost_info/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
